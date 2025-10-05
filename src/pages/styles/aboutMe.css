@@ -33,12 +33,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .profile-photo {
-    width: 60%;
-    height: auto;
-    border-radius: 10%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.social-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -56,7 +73,6 @@
         flex-direction: column;
         font-weight: bold;
         width: 90%;
-
     }
 
     .header-about-me {
@@ -64,8 +80,9 @@
         margin-bottom: 2rem;
     }
 
-    .profile-photo{
-        width: 70%;
+    .profile-photo {
+        border-radius: 15px;
+        width: 60%;
+        height: auto;
     }
-
 }

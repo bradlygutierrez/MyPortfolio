@@ -4,21 +4,27 @@ import Header from '../components/Header.astro';
 import './styles/global.css'
 import AboutMe from '../components/AboutMe.astro';
 import MyWork from '../components/MyWork.astro';
+import Contact from '../components/Contact.astro';
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bradly's Portfolio</title>
 </head>
 <body>
     <Header />
-    <section id="about-me">
+    <section id="about-me" class="scroll-animate">
         <AboutMe />
     </section>
     <section id="projects">
         <MyWork />
     </section>
+    <section id="contact" class="scroll-animate">
+        <Contact />
+    </section>
 </body>
 </html>
+
+<script src="../scripts/scrollAnimation.js"></script>
