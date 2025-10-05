@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Caltrack",
+        "description": "Caltrack is a calorie tracking app that helps users monitor their daily caloric intake and expenditure.",
+        "photo": "caltrack.png",
+        "link": "https://www.cal-track.shop",
+        "repo": "https://github.com/Eduardobarrera487/CalTrack",
+        "technologies": [
+            {
+                "name": "Next.js",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+            },
+            {
+                "name": "Supabase",
+                "icon": "https://raw.githubusercontent.com/supabase/supabase/master/packages/common/assets/images/supabase-logo-icon.svg"
+            }
+        ]
+    },
+    {
+        "name": "CRM ClinMed",
+        "description": "CRM ClinMed is a customer relationship management system tailored for a local clinic to manage patient interactions and data.",
+        "photo": "clinmed.jpg",
+        "link": "",
+        "repo": "https://github.com/bradlygutierrez/crmFrontend",
+        "technologies": [
+            {
+                "name": "Next.js",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+            },
+            {
+                "name": "PHP",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+            }
+        ]
+    },
+    {
+        "name": "Forum App",
+        "description": "A forum application that allows users to create questions, post answers and comments, and it's linked to my personal blog.",
+        "photo": "foro.png",
+        "link": "",
+        "repo": "https://github.com/bradlygutierrez/Laravel-LiveWire-Forum-project",
+        "technologies": [
+            {
+                "name": "Laravel",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original-wordmark.svg"
+            },
+            {
+                "name": "Livewire",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg"
+            }
+        ]
+    },
+    {
+        "name": "UNICIT Clubs social media",
+        "description": "A club's social media for UNICIT, where you can post, subscribe to clubs and create clubs.",
+        "photo": "clubs-unicit.jpg",
+        "link": "",
+        "repo": "https://github.com/Eduardobarrera487/clubes-unicit",
+        "technologies": [
+            {
+                "name": "Next.js",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+            },
+            {
+                "name": "PHP",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+            }
+        ]
+    },
+    {
+        "name": "ToDo App",
+        "description": "A simple ToDo application to manage daily tasks with features like adding, editing, deleting and searching tasks.",
+        "photo": "todoapp.png",
+        "link": "https://bradlygutierrez.github.io/ToDoApp/",
+        "repo": "https://github.com/bradlygutierrez/ToDoApp",
+        "technologies": [
+            {
+                "name": "React.js",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            }
+        ]
+    },
+    {
+        "name": "WebNota",
+        "description": "A web application for managing student grades, allowing teachers to input and track student performance.",
+        "photo": "webnota.png",
+        "link": "",
+        "repo": "https://github.com/bradlygutierrez/WebNota_PHP_APP",
+        "technologies": [
+            {
+                "name": "PHP",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+            }
+        ]
+    }
+]

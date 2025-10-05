@@ -1,7 +1,6 @@
 ---
 
 import Header from '../components/Header.astro';
-import '../components/AboutMe.astro';
 import './styles/global.css'
 import AboutMe from '../components/AboutMe.astro';
 import MyWork from '../components/MyWork.astro';
@@ -9,13 +8,17 @@ import MyWork from '../components/MyWork.astro';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-	<Header />
-	<AboutMe />
-	<MyWork />
+    <Header />
+    <section id="about-me">
+        <AboutMe />
+    </section>
+    <section id="projects">
+        <MyWork />
+    </section>
 </body>
 </html>
