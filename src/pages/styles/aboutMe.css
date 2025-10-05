@@ -1,0 +1,71 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    background-color: #f8f7f0;
+}
+
+.text-container {
+    padding: 2rem;
+    flex-direction: column;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+
+.header-about-me {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.description-about-me {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.image-container {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    width: 60%;
+    height: auto;
+    border-radius: 10%;
+}
+
+@media screen and (min-width: 768px) {
+    .about-me {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 90vh;
+        width: 100%;
+        background-color: #f8f7f0;
+    }
+
+    .text-container {
+        padding: 5rem;
+        flex-direction: column;
+        font-weight: bold;
+        width: 90%;
+
+    }
+
+    .header-about-me {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .profile-photo{
+        width: 70%;
+    }
+
+}
