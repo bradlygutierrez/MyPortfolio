@@ -49,15 +49,16 @@
     display: flex;
     gap: 1.5rem;
     align-items: center;
-}
-
-.social-links{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
+/* Por defecto, solo se muestra el de la foto (móvil) */
+.social-links.text {
+    display: none;
+}
+
+/* En escritorio, solo se muestra el de la descripción */
 @media screen and (min-width: 768px) {
     .about-me {
         display: flex;
@@ -82,7 +83,17 @@
 
     .profile-photo {
         border-radius: 15px;
-        width: 60%;
+        width: 68%;
         height: auto;
+    }
+
+    .social-links.photo {
+        display: none;
+    }
+    .social-links.text {
+        display: flex;
+        margin-top: 2rem;
+        justify-content: flex-start;
+        align-items: center;
     }
 }
