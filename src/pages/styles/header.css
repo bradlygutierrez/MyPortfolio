@@ -20,7 +20,7 @@
 .hamburger-button {
     width: 2rem;
     height: 2rem;
-    background-image: url('hamburger.png');
+    background-image: url('/hamburger.png');
     background-size: cover;
     display: block;
     z-index: 1001; /* Botón siempre accesible */
